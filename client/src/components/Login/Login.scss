@@ -1,0 +1,11 @@
+.form-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .form-log_label{
+        display: flex;
+        flex-direction: column;
+    }
+}

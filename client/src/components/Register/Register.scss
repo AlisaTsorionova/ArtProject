@@ -1,0 +1,11 @@
+.form-reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .form-reg_label{
+        display: flex;
+        flex-direction: column;
+    }
+}
