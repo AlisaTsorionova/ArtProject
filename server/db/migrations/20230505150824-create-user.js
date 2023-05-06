@@ -35,9 +35,6 @@ module.exports = {
       number: {
         type: Sequelize.STRING,
       },
-      points: {
-        type: Sequelize.INTEGER,
-      },
       status: {
         type: Sequelize.STRING,
       },
