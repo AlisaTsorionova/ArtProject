@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .logo{
+        margin-left: 10px;
+        font-size: large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .links{
+        display: flex;
+        justify-content: space-between;
+        width: 160px;
+        padding-right: 10px;
+
+        .link{
+            font-weight: 450;
+            &:hover{
+                color: green;
+            }
+        }
+    }
+}
